@@ -2,7 +2,7 @@ const container = document.querySelector('#container');
 const parents = Array.from(container.children);
 const parentTwo = parents[1];
 const kids = Array.from(parentTwo.children);
-console.log(kids[0].textContent = 'Hijos');
+console.log(kids[0].textContent = 'mis kids');
 
 //---------------------------------------------------------
 const parent = document.querySelector('#parent');
